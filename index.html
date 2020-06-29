@@ -1,0 +1,62 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/png" href="img/icon.png">
+
+    <title> PassWord Generator</title>
+
+</head>
+<body>
+  <img src="./img/icon.png" class="logo"></img>
+    <div class="container">
+
+        <h1 class="pass">Password Generator</h1>
+
+        <div class="sub-container">
+          <div class="result">
+        <span id="result-box"></span>
+            <button class="btn" id="clipboard"><i class="fa fa-clipboard fa-2x" aria-hidden="true"></i></button>
+          </div>
+
+          <div class="Box">
+            <p class="crediational">***Your Password include &#8594</p>
+            <div class="box">
+              <label for="length">&#9830; Password length</label>
+              <input type="number" class="len" id="length" name="length">
+            </div>
+
+            <div class="box">
+              <label for="lowercase">&#9830; Password include lowercase charactor</label>
+              <input type="checkbox" name="lowercase" id="lowercase" checked>
+            </div>
+
+            <div class="box">
+              <label for="uppercase">&#9830; Password include uppercase charactor</label>
+              <input type="checkbox" name="uppercase" id="uppercase"  checked>
+            </div>
+
+            
+              
+            <div class="box">
+              <label for="symbol">&#9830; Password include symbol</label>
+              <input type="checkbox" id="symbol" name="symbol" checked>
+            </div>
+
+            <div class="box">
+              <label for="number">&#9830; Password include number</label>
+              <input type="checkbox" id="number" name="number" checked>
+            </div>
+            
+          
+            <button class="Btn" id="button">Generate Password</button>
+        </div>
+
+    </div>
+    <script src="App.js"></script>
+</body>
+</html>
