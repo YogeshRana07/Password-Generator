@@ -37,15 +37,19 @@ body {
   overflow-x: hidden !important;
   min-height: 100vh; 
 }
-
-  .logo{
+.Logo{
+  display: block;
+  text-align: center;
+   margin-top:2rem;
+}
+  /*.logo{
     margin-top:6rem;
     margin-left:70rem;
     width:10rem;
     height:10rem;
     /*border:2px var(--color-grey-dark-1) solid;*/
 
-  }
+  /*}*/
 
 .container {
   max-width: 120rem;
@@ -62,16 +66,17 @@ body {
       overflow-x: hidden !important;
     }
   }
-
+/*
   @media only screen and (max-width: 900px){
     .logo{
       margin-left:42rem;
     }
-  }
+  }*/
 
   @media only screen and (max-width: 600px){
     .logo{
-      margin-left:25rem;
+      width:11rem;
+      height:11rem;
     }
   }
 
